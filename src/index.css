@@ -1,13 +1,36 @@
+:root {
+  --white: "#FFFFFF";
+  --blue-primary: "#187CE2";
+  --blue-secondary: "#1D72DE";
+  --blue-dark: "#2D54CC";
+  --blue-sidebar: "#204371";
+  --body-sidebar: "#252435";
+  --light-blue: "#4BC1F4";
+  --blue-title: "#2C52CC";
+  --gray-light: "#E5ECEF";
+  --light-blue-2: "#5CA1EA";
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
 body {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/**
+components:
+-boton completar
+-card
+colors:
+
+*/

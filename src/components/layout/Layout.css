@@ -1,0 +1,7 @@
+.contenedor-main {
+  margin-left: 200px;
+  background-color: yellow;
+  min-height: 100vh;
+  display: flex;
+  padding-top: 60px;
+}
