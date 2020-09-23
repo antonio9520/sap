@@ -1,8 +1,74 @@
 .container-header {
   display: flex;
-  background: red;
+  background: rgb(21, 134, 234);
+  background: var(--degradado-blue);
   height: 70px;
   position: fixed;
+  flex-direction: row;
   width: 100%;
   top: 0;
+  overflow: hidden;
+  z-index: 9;
+  box-shadow: 0 0.5px 10px 1px rgb(58, 58, 58);
+}
+.header-left {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  padding-left: 50px;
+}
+.logo-principal {
+  width: 160px;
+}
+.btn-open-sidebar {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 15px;
+}
+.icon-bars {
+  width: 25px;
+  height: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.icon-bars div:nth-child(1) {
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  transition: 0.5 all ease-in-out;
+}
+.icon-bars div:nth-child(2) {
+  width: 70%;
+  height: 2px;
+  background-color: white;
+  transition: 0.5 all ease-in-out;
+}
+.icon-bars div:nth-child(3) {
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  transition: 0.5 all ease-in-out;
+}
+.icon-bars div:nth-child(4) {
+  width: 70%;
+  height: 2px;
+  background-color: white;
+  transition: 0.5 all ease-in-out;
+}
+
+.header-right {
+  display: flex;
+  flex: 1;
+
+  flex-direction: row-reverse;
+}
+
+.logo-user {
+  width: 70px;
+}
+.cont-logo-user {
+  width: 70px;
 }

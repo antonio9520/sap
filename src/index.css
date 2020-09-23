@@ -1,14 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap");
 :root {
-  --white: "#FFFFFF";
-  --blue-primary: "#187CE2";
-  --blue-secondary: "#1D72DE";
-  --blue-dark: "#2D54CC";
-  --blue-sidebar: "#204371";
-  --body-sidebar: "#252435";
-  --light-blue: "#4BC1F4";
-  --blue-title: "#2C52CC";
-  --gray-light: "#E5ECEF";
-  --light-blue-2: "#5CA1EA";
+  --white: #ffffff;
+  --blue-primary: #187ce2;
+  --blue-secondary: #1d72de;
+  --blue-dark: #2d54cc;
+  --blue-sidebar: #204371;
+  --body-sidebar: #252435;
+  --light-blue: #4bc1f4;
+  --blue-title: #2c52cc;
+  --gray-light: #e5ecef;
+  --light-blue-2: #5ca1ea;
+  --degradado-blue: linear-gradient(
+    90deg,
+    rgba(21, 134, 234, 1) 0%,
+    rgba(46, 74, 199, 1) 100%
+  );
 }
 
 *,
@@ -17,14 +24,19 @@
   box-sizing: border-box;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--white);
+  font-family: "Roboto";
+}
 body {
   padding: 0;
   margin: 0;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
 }
 
 /**
